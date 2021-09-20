@@ -1,0 +1,28 @@
+# this is an example about how to use this package
+# if not download:
+#
+# package name is lab4Group5
+### load package
+library(lab4Group5)
+library(ggplot2)
+# create a linreg object
+linreg_object <- linreg(Petal.Length~Species, data = iris)
+
+# print()
+linreg_object$print()
+
+# plot()
+linreg_object$plot()
+
+# resid() which will return the vector of residuals e.
+linreg_object$resid()
+
+# return the predicted values y hat
+linreg_object$pred()
+
+# return the coefficients as a named vector.
+linreg_object$coef()
+
+# Supplementary information about linear models
+linreg_object$summary()
+
