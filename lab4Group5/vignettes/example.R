@@ -1,10 +1,14 @@
-# this is an example about how to use this package
-# if not download:
-#
-# package name is lab4Group5
+### this is an example about how to use this package
+
+## IF NOT DOWNLOAD YET:
+# library(devtools)
+# devtools::install_github("Crispy-tuna/lab4Group5/lab4Group5")
+## package name is lab4Group5，which is on the Crispy-tuna/lab4Group5/lab4Group5
+
 ### load package
 library(lab4Group5)
 library(ggplot2)
+
 # create a linreg object
 linreg_object <- linreg(Petal.Length~Species, data = iris)
 
